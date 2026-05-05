@@ -1,0 +1,769 @@
+
+
+
+<link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="static/images/apple-touch-icon.png">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Breads & Banter</title>
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="static/css/about.css">
+  <link rel="stylesheet" href="static/css/contact.css">
+  <link rel="stylesheet" href="static/css/journals.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400&family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="">
+  
+  
+
+  
+
+<header class="hero">
+  <div class="hero__bg"></div>
+  <div class="hero__overlay"></div>
+
+  <nav class="nav">
+    <div class="nav__inner">
+      <!-- Left logo -->
+      <a class="nav__logo" href="index.html">
+        <img src="static/images/logo.png" alt="Breads & Banter">
+      </a>
+
+      <!-- Center links -->
+      <ul class="nav__links">
+        <li><a class="is-active" href="index.html#home">HOME</a></li>
+        <li><a href="about/index.html">ABOUT US</a></li>
+
+        <li><a href="contact/index.html">CONTACT US</a></li>
+        <li><a href="journals/index.html">JOURNALS</a></li>
+
+      </ul>
+
+      <!-- Right empty space (keeps center perfectly aligned like screenshot) -->
+      <div class="nav__right"></div>
+    </div>
+
+    <div class="nav__divider"></div>
+  </nav>
+
+  <div class="hero__content">
+    <div class="hero__pill">EST. 2019 • BROOKEFIELD • BANGALORE</div>
+
+    <h1 class="hero__title">A Cozy Place Of Happiness.</h1>
+
+    <p class="hero__subtitle">
+      A cozy gourmet café in Brookefield, serving thoughtfully crafted cuisine since 2017.<br>
+       Come slow down, unwind, and feel at home.
+    </p>
+
+    <div class="hero__actions">
+      <a href="javascript:void(0);" class="btn btn--primary" onclick="openBookingPopup()">
+        Book a Table <span class="btn__arrow">→</span>
+      </a>
+
+      <a href="javascript:void(0);" class="btn btn--ghost" onclick="openMenuPopup()">
+        View Menu <span class="btn__icon">☕</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+
+  <!-- OUR NEIGHBORHOOD SECTION -->
+  <section class="neighborhood" id="about">
+    <div class="neighborhood__container">
+
+      <!-- LEFT -->
+      <div class="neighborhood__left">
+        <div class="neighborhood__kicker">OUR NEIGHBORHOOD</div>
+
+        <h2 class="neighborhood__title">
+          Located in the Heart of<br>
+          <span>Brookefield.</span>
+        </h2>
+
+        <p class="neighborhood__text">
+          Nestled between the old cobblestone library and the morning sun, our flagship location
+          has been a cornerstone of the Brookefield community for over a decade. It is a space
+          where the aroma of sourdough meets the rhythm of the city.
+        </p>
+
+        <div class="neighborhood__meta">
+          <div class="meta__line"></div>
+
+          <div class="meta__items">
+            <div class="meta__item">
+              <div class="meta__icon" aria-hidden="true">
+  <svg viewBox="0 0 24 24" class="meta__svg">
+    <path d="M12 22s7-4.4 7-12a7 7 0 1 0-14 0c0 7.6 7 12 7 12z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    <circle cx="12" cy="10" r="2.4" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  </svg>
+</div>
+
+              <div>
+                <div class="meta__label">ADDRESS</div>
+                <div class="meta__value">543 Aecs layout main road,AECS Layout Brookefield, Marathahalli, Bengaluru, Karnataka 560037</div>
+              </div>
+            </div>
+
+            <div class="meta__item">
+               <div class="meta__icon">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+       stroke="#B27A2A" stroke-width="1.6"
+       stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="9"></circle>
+    <path d="M12 7v5l3 2"></path>
+  </svg>
+</div>
+
+              <div>
+                <div class="meta__label">OPEN DAILY</div>
+                <div class="meta__value">09:00 AM — 11:00 PM</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a 
+  class="neighborhood__link"
+  href="https://www.google.com/maps/search/?api=1&query=Breads%20%26%20Banter%2C%20543%20AECS%20Layout%20Main%20Road%2C%20Brookefield%2C%20Bengaluru"
+  target="_blank"
+  rel="noopener"
+>
+  View On Google Maps <span class="map-arrow">→</span>
+</a>
+      </div>
+
+      <!-- RIGHT -->
+<div class="neighborhood__right">
+  <div class="neighborhood__imgwrap">
+    <img src="static/images/neighborhood.jpg" alt="Cafe interior">
+  </div>
+</div>
+
+
+    </div>
+  </section>
+
+  <!-- QUOTE SECTION -->
+<section class="quote-section" id="quote">
+  <div class="quote-section__container">
+    <div class="quote-section__watermark"></div>
+
+    <blockquote class="quote-section__quote">
+      “Where craftsmanship meets<br>
+      hospitality — every plate tells a story.”
+    </blockquote>
+  </div>
+</section>
+
+
+<!-- OUR BEGINNING SECTION -->
+<section class="beginning" id="story">
+  <div class="beginning__container">
+
+    <!-- LEFT IMAGE -->
+    <div class="beginning__left">
+      <div class="beginning__imgwrap">
+        <img src="static/images/beginning.jpg" alt="Cafe interior">
+      </div>
+    </div>
+
+    <!-- RIGHT CONTENT -->
+    <div class="beginning__right">
+      <p class="beginning__kicker">OUR BEGINNING</p>
+
+      <h2 class="beginning__title">
+        Rooted in Craft,<br>
+        <span>Built on Warmth.</span>
+      </h2>
+
+      <p class="beginning__text">
+        It began with a simple premise in 2017: that a neighborhood café could be more than just a stop for caffeine—it could be the living room of the community.
+      </p>
+
+      <p class="beginning__text">
+        Tucked away in a quiet corner of Brookefield, Breads &amp; Banter was born from a desire to slow down time. We focused on the patience of slow-fermented dough, the ritual of pour-over coffee, and creating a sanctuary where conversations could unfold without urgency.
+      </p>
+
+      <a class="beginning__link" href="index.html#story">
+        Read Our Story <span>→</span>
+      </a>
+    </div>
+
+  </div>
+</section>
+<section class="menu-highlights">
+  <div class="menu-highlights__container">
+
+    <div class="menu-highlights__top">
+      <div>
+        <p class="menu-kicker">MENU HIGHLIGHTS</p>
+        <h2 class="menu-title">House Specialties</h2>
+      </div>
+
+      <a class="menu-link" href="menu/index.html">
+        Explore Full Menu <span>→</span>
+      </a>
+    </div>
+
+    <!-- ✅ IMPORTANT: menu-row > menu-track > menu-card -->
+    <div class="menu-row">
+      <div class="menu-track">
+
+        <!-- CARD 1 -->
+        <article class="menu-card">
+          <div class="menu-card__img">
+            <img src="static/images/menu1.jpg" alt="Mexicana Pizza">
+          </div>
+          <div class="menu-card__body">
+            <h3 class="menu-card__name">Mexicana Pizza</h3>
+            <p class="menu-card__desc">
+              A spicy, vibrant feast featuring zesty jalapeños, seasoned ground beef, and fresh veggies.
+            </p>
+          </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="menu-card">
+          <div class="menu-card__img">
+            <img src="static/images/menu2.jpg" alt="Pasta Formaggio">
+          </div>
+          <div class="menu-card__body">
+            <h3 class="menu-card__name">Pasta Formaggio</h3>
+            <p class="menu-card__desc">
+              A creamy blend of artisan cheeses with herbs and al dente pasta — rich, comforting.
+            </p>
+          </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="menu-card">
+          <div class="menu-card__img">
+            <img src="static/images/menu3.jpg" alt="Aglio E Olio">
+          </div>
+          <div class="menu-card__body">
+            <h3 class="menu-card__name">Aglio E Olio</h3>
+            <p class="menu-card__desc">
+              Golden garlic, olive oil, chili flakes, and fresh parsley — aromatic classic.
+            </p>
+          </div>
+        </article>
+
+        <!-- CARD 4 -->
+        <article class="menu-card">
+          <div class="menu-card__img">
+            <img src="static/images/menu4.jpg" alt="BBQ Pizza">
+          </div>
+          <div class="menu-card__body">
+            <h3 class="menu-card__name">BBQ Pizza</h3>
+            <p class="menu-card__desc">
+              Smoky barbeque chicken, caramelized onions, and melted mozzarella — finished with char.
+            </p>
+          </div>
+        </article>
+
+        <!-- CARD 5 (this will be partially visible) -->
+        
+    <!-- CARD 5 (DISABLED / PARTIAL) -->
+    <article class="menu-card menu-card--disabled">
+      <div class="menu-card__img">
+        <img src="static/images/menu3.jpg">
+      </div>
+      <div class="menu-card__body">
+        <h3 class="menu-card__name">Coming Soon</h3>
+        <p class="menu-card__desc">
+          More house specials arriving shortly.
+        </p>
+      </div>
+    </article>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="order-online">
+  <div class="order-online__container">
+
+    <p class="order-online__kicker">ORDER ONLINE</p>
+
+    <h2 class="order-online__title">
+      Enjoy Breads &amp; Banter<br>
+      From Anywhere.
+    </h2>
+
+    <p class="order-online__subtitle">
+      Your favorite breads, pastries, and café classics are just a few clicks away.
+      Order through our trusted delivery partners and enjoy the same warmth at home.
+    </p>
+
+    <div class="order-online__grid">
+
+  <article class="order-card order-card--swiggy">
+    <h3 class="order-card__name">SWIGGY</h3>
+    <p class="order-card__sub">Swiggy Delivery</p>
+    <p class="order-card__desc">
+      Browse our full menu and get your favorites delivered quickly.
+    </p>
+    <a href="https://www.swiggy.com/city/bangalore/breads-and-banter-brookefield-rest1018090" target="_blank" class="order-card__link">
+      Order on Swiggy <span>→</span>
+    </a>
+  </article>
+
+  <article class="order-card order-card--zomato">
+    <h3 class="order-card__name">ZOMATO</h3>
+    <p class="order-card__sub">Zomato Orders</p>
+    <p class="order-card__desc">
+      Browse our full menu and get your favorites delivered quickly.
+    </p>
+    <a href="https://www.zomato.com/bangalore/breads-and-banter-aecs-layout-bangalore" target="_blank" class="order-card__link">
+      Order on Zomato <span>→</span>
+    </a>
+  </article>
+
+  <article class="order-card order-card--ownly">
+    <h3 class="order-card__name">OWNLY</h3>
+    <p class="order-card__sub">Rapido Ownly Delivery</p>
+    <p class="order-card__desc">
+      Browse our full menu and get your favorites delivered quickly.
+    </p>
+    <a href="http://127.0.0.1:8000/YOUR_OWNLY_LINK" target="_blank" class="order-card__link">
+      Order on Ownly <span>→</span>
+    </a>
+  </article>
+
+</div>
+
+    <p class="order-online__bottom">
+      Available across Bangalore for quick doorstep delivery.
+    </p>
+
+  </div>
+</section>
+
+<!-- ===== OUR GALLERY SECTION (AFTER MENU) ===== -->
+<section class="gallery">
+  <div class="gallery__container">
+
+    <div class="gallery__top">
+      <div>
+        <p class="gallery__kicker">OUR GALLERY</p>
+
+        <h2 class="gallery__title">
+          Designed for <span>Slow Moments</span><br>
+          and Warm Conversations.
+        </h2>
+      </div>
+
+      <a class="gallery__link" href="index.html#">
+        See More Photos <span>→</span>
+      </a>
+    </div>
+
+    <!-- GRID -->
+    <div class="gallery__grid">
+      <!-- Left big image -->
+      <div class="gallery__item gallery__item--left">
+        <img src="static/images/gallery1.jpg" alt="Cafe entrance">
+      </div>
+
+      <!-- Middle tall image -->
+      <div class="gallery__item gallery__item--mid">
+        <img src="static/images/gallery2.jpg" alt="Seating area">
+      </div>
+
+      <!-- Right column -->
+      <div class="gallery__right">
+        <div class="gallery__item gallery__item--rightTop">
+          <img src="static/images/gallery3.jpg" alt="Cafe interior">
+        </div>
+<div class="gallery__quote">
+  <p>
+    “WE CARE AS MUCH ABOUT<br>
+    THE WARMTH OF OUR<br>
+    SPACE AS THE FLAVORS ON<br>
+    YOUR PLATE.”
+  </p>
+</div>
+
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- TEAM SECTION TEMPORARILY HIDDEN -->
+<!--
+<section class="team">
+  <div class="team__container">
+
+    <div class="team__top">
+      <div class="team__left">
+        <p class="team__kicker">OUR TEAM</p>
+        <h2 class="team__title">The Faces Behind the <span>Warmth.</span></h2>
+      </div>
+
+      <p class="team__desc">
+        Hospitality is a craft, and our team are the artisans. Many have been with us since the very first loaf was baked.
+      </p>
+    </div>
+
+    <!-- ✅ Important: row -> track -> member -->
+    <!--
+    <div class="team__row">
+      <div class="team__track">
+
+        <!-- MEMBER 1 -->
+        <!--
+        <article class="team__member">
+          <div class="team__photo">
+            <img src="/static/images/team1.jpg" alt="Elias Thorne">
+          </div>
+          <div class="team__meta">
+            <h3 class="team__name">Elias Thorne</h3>
+            <p class="team__role">HEAD BAKER</p>
+            <p class="team__tenure">With Us For 10 Years.</p>
+          </div>
+        </article>
+
+        <!-- MEMBER 2 -->
+        <!--
+        <article class="team__member">
+          <div class="team__photo">
+            <img src="/static/images/team2.jpg" alt="Sarah Jenkins">
+          </div>
+          <div class="team__meta">
+            <h3 class="team__name">Sarah Jenkins</h3>
+            <p class="team__role">GENERAL MANAGER</p>
+            <p class="team__tenure">With Us For 5 Years.</p>
+          </div>
+        </article>
+
+        <!-- MEMBER 3 -->
+        <!--
+        <article class="team__member">
+          <div class="team__photo">
+            <img src="/static/images/team3.jpg" alt="Marcus Lee">
+          </div>
+          <div class="team__meta">
+            <h3 class="team__name">Marcus Lee</h3>
+            <p class="team__role">HEAD OF COFFEE</p>
+            <p class="team__tenure">With Us For 4 Years.</p>
+          </div>
+        </article>
+
+        <!-- MEMBER 4 (PARTIAL + DISABLED like screenshot) -->
+        <!--
+        <article class="team__member team__member--disabled">
+          <div class="team__photo">
+            <img src="/static/images/team4.jpg" alt="Coming Soon">
+          </div>
+          <div class="team__meta">
+            <h3 class="team__name">More Soon</h3>
+            <p class="team__role">NEW MEMBER</p>
+            <p class="team__tenure">Joining Shortly.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+-->
+
+
+<section class="reviews">
+  <div class="reviews__container">
+    <div class="reviews__grid">
+
+      <div class="reviews__left">
+        <div class="reviews__card">
+          <div class="reviews__stars" aria-label="5 star rating">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+
+          <div class="reviews__slider" id="reviewsSlider">
+            <article class="review is-active">
+              <p class="review__quote">
+                “An Absolute Sanctuary In The City. The Pastries Are Divine, But The Atmosphere Keeps You Coming Back.”
+              </p>
+            </article>
+
+            <article class="review">
+              <p class="review__quote">
+                “Beautiful place to work and unwind. Coffee is excellent, and the staff are genuinely warm.”
+              </p>
+            </article>
+
+            <article class="review">
+              <p class="review__quote">
+                “The bread is amazing — fresh, flavorful, and worth the visit. Cozy vibes throughout.”
+              </p>
+            </article>
+
+            <article class="review">
+              <p class="review__quote">
+                “Tried the pasta and dessert combo — everything felt handcrafted. Calm, clean, and premium.”
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <div class="reviews__divider"></div>
+
+        <div class="reviews__bottom">
+          <div class="reviews__meta">
+            <p class="reviews__source">GOOGLE REVIEWS</p>
+            <p class="reviews__rating">4.3/5 Average Rating</p>
+          </div>
+
+          <a class="reviews__link" href="index.html#">
+            Read All Reviews <span>→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="reviews__right">
+        <div class="reviews__img">
+          <img src="static/images/review-coffee.jpg" alt="Coffee on table">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= PARTNERSHIP CTA (AFTER REVIEWS) ================= -->
+<section class="partner-cta">
+  <div class="partner-cta__inner">
+    <h2 class="partner-cta__title">
+      Let’s Create Meaningful <span>Partnerships</span>.
+    </h2>
+
+    <p class="partner-cta__text">
+      Whether you are looking to invest, collaborate on an event, or source premium<br>
+      baked goods for your establishment, we invite you to start a conversation.
+    </p>
+
+    <a href="contact/index.html" class="partner-cta__btn">
+      CONTACT FOR BUSINESS ENQUIRIES
+    </a>
+  </div>
+
+  <!-- divider line under CTA like screenshot -->
+  <div class="partner-cta__divider"></div>
+</section>
+
+
+
+
+<footer class="site-footer">
+  <div class="site-footer__line"></div>
+
+  <div class="site-footer__container">
+
+    <!-- LEFT -->
+    <div class="site-footer__brand">
+      <div class="site-footer__logo">
+        <img src="static/images/footer-logo.png" alt="Breads & Banter">
+      </div>
+
+      <p class="site-footer__desc">
+        Rooted in craft, built on warmth. Dedicated<br>
+        to the art of slowing down in a fast-paced<br>
+        world.
+      </p>
+    </div>
+
+    <!-- EXPLORE -->
+    <div class="site-footer__col">
+      <p class="site-footer__title">EXPLORE</p>
+      <ul class="site-footer__links">
+        <li><a href="index.html#">Menu</a></li>
+        <li><a href="index.html#">Our Story</a></li>
+        <li><a href="index.html#">Locations</a></li>
+        <li><a href="index.html#">Careers</a></li>
+      </ul>
+    </div>
+
+    <!-- VISIT -->
+    <div class="site-footer__col">
+      <p class="site-footer__title">VISIT</p>
+      <div class="site-footer__text">
+        <p>543 Aecs Layout Main Road, AECS Layout Brookefield,<br>
+          Marathahalli, Bengaluru, Karnataka 560037</p>
+        <p class="site-footer__spaced">088848 00123</p>
+        <p>breadsnbanter@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- FOLLOW -->
+    <div class="site-footer__col">
+      <p class="site-footer__title">FOLLOW</p>
+
+      <div class="site-footer__social">
+        <a href="index.html#" aria-label="Instagram" class="site-footer__icon">
+          <img src="static/images/icon-instagram.png" alt="">
+        </a>
+        <a href="index.html#" aria-label="Facebook" class="site-footer__icon">
+          <img src="static/images/icon-facebook.png" alt="">
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ✅ Bottom line like your reference -->
+  <div class="site-footer__bottom">
+    <div class="site-footer__bottom-inner">
+      <p class="site-footer__copy">© Shet Mushet Hospitality Private limited. All rights reserved.</p>
+
+      <div class="site-footer__legal">
+        <a href="http://127.0.0.1:8000/privacy-policy/">Privacy Policy</a>
+        <a href="index.html#">Terms Of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    <div id="pageTransition" class="page-transition"></div>
+
+  <!-- ✅ Main JS -->
+  <script src="static/js/main.js"></script>
+
+  <div id="pageCurtain"></div>
+
+  <!-- ✅ Page Transition JS -->
+  <script src="http://127.0.0.1:8000/static/js/page-transition.js"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const slider = document.getElementById("reviewsSlider");
+    if (!slider) return;
+
+    const reviews = Array.from(slider.querySelectorAll(".review"));
+    if (reviews.length <= 1) return;
+
+    let current = 0;
+
+    reviews.forEach((review, index) => {
+      review.classList.toggle("is-active", index === 0);
+    });
+
+    function showNextReview() {
+      reviews[current].classList.remove("is-active");
+      current = (current + 1) % reviews.length;
+      reviews[current].classList.add("is-active");
+    }
+
+    setInterval(showNextReview, 5200);
+  });
+  </script>
+
+
+  
+<div id="menuPopup" class="menu-popup">
+  <div class="menu-popup-content">
+    <h3>Select Menu</h3>
+    <p class="menu-popup-subtitle">
+      Choose which menu you’d like to explore.
+    </p>
+
+    <a href="static/menus/breakfast-menu.pdf" target="_blank" class="menu-option">
+      <span>Breakfast Menu</span>
+      <span>→</span>
+    </a>
+
+    <a href="static/menus/lunch-dinner-menu.pdf" target="_blank" class="menu-option">
+      <span>Lunch & Dinner Menu</span>
+      <span>→</span>
+    </a>
+
+    <button type="button" onclick="closeMenuPopup()" class="menu-close">Close</button>
+  </div>
+</div>
+
+<div id="bookingPopup" class="booking-popup-overlay">
+  <div class="booking-popup-card">
+
+    <button type="button" class="booking-popup-close" onclick="closeBookingPopup()">
+      &times;
+    </button>
+
+    <div class="booking-popup-top">
+      <p class="booking-popup-label">Reserve Your Table</p>
+      <h3 class="booking-popup-title">Choose Your Platform</h3>
+      <p class="booking-popup-subtitle">
+        Select where you’d like to continue your booking for Breads & Banter.
+      </p>
+    </div>
+
+    <div class="booking-popup-options">
+      <a href="https://www.swiggy.com/city/bangalore/breads-and-banter-brookefield-rest1018090" target="_blank" class="booking-platform booking-platform--swiggy">
+        <span class="booking-platform__name">Swiggy</span>
+        <span class="booking-platform__arrow">→</span>
+      </a>
+
+      <a href="https://www.zomato.com/bangalore/breads-and-banter-aecs-layout-bangalore" target="_blank" class="booking-platform booking-platform--zomato">
+        <span class="booking-platform__name">Zomato</span>
+        <span class="booking-platform__arrow">→</span>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<script>
+function openMenuPopup(){
+  document.getElementById("menuPopup").style.display="flex";
+}
+
+function closeMenuPopup(){
+  document.getElementById("menuPopup").style.display="none";
+}
+
+window.onclick = function(event) {
+  const popup = document.getElementById("menuPopup");
+
+  if (event.target === popup) {
+    popup.style.display = "none";
+  }
+}
+</script>
+
+<script>
+function openBookingPopup(){
+  document.getElementById("bookingPopup").style.display = "flex";
+}
+
+function closeBookingPopup(){
+  document.getElementById("bookingPopup").style.display = "none";
+}
+</script>
+
+<script>
+window.addEventListener("click", function(e){
+  const popup = document.getElementById("bookingPopup");
+  if(e.target === popup){
+    closeBookingPopup();
+  }
+});
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,509 @@
+
+
+
+<link rel="icon" type="image/x-icon" href="../static/images/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../static/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../static/images/favicon-16x16.png">
+<link rel="apple-touch-icon" href="../static/images/apple-touch-icon.png">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Journal | Breads & Banter</title>
+  <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="stylesheet" href="../static/css/about.css">
+  <link rel="stylesheet" href="../static/css/contact.css">
+  <link rel="stylesheet" href="../static/css/journals.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400&family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="page-journal">
+  
+
+<header class="journal-hero">
+  <!-- Background image -->
+  <div class="journal-hero__bg"
+       style="background-image:url('../static/images/journal-hero.jpg');"></div>
+
+  <!-- Dark overlay -->
+  <div class="journal-hero__overlay"></div>
+
+  <!-- Warm left glow like screenshot -->
+  <div class="journal-hero__glow"></div>
+
+  <!-- NAVBAR (reuse your exact navbar styles/classes) -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a class="nav__logo" href="../index.html">
+        <img src="../static/images/logo.png" alt="Breads & Banter">
+      </a>
+
+      <ul class="nav__links">
+        <li><a href="../index.html" class="nav-link">HOME</a></li>
+        <li><a href="../about/index.html" class="nav-link">ABOUT US</a></li>
+        <li><a href="../contact/index.html" class="nav-link">CONTACT US</a></li>
+        <li><a class="is-active nav-link" href="index.html">JOURNAL</a></li>
+      </ul>
+
+      <div class="nav__right"></div>
+    </div>
+    <div class="nav__divider"></div>
+  </nav>
+
+  <!-- Center content -->
+  <div class="journal-hero__content">
+    <div class="journal-hero__kicker">EDITORIAL</div>
+
+    <h1 class="journal-hero__title">Journal.</h1>
+
+    <p class="journal-hero__subtitle">
+      A living collection of stories, craft, and quiet moments shaped in our kitchen,
+      our space, and the people who bring it to life.
+    </p>
+  </div>
+</header>
+
+<!-- Category Tabs Section -->
+<section class="journal-tabs">
+  <div class="journal-tabs__inner">
+
+    <button class="journal-tab is-active" data-filter="all">All Stories</button>
+    <button class="journal-tab" data-filter="food">Food &amp; Craft</button>
+    <button class="journal-tab" data-filter="coffee">Coffee &amp; Culture</button>
+    <button class="journal-tab" data-filter="space">Our Space</button>
+    <button class="journal-tab" data-filter="people">People</button>
+
+  </div>
+</section>
+<!-- Featured Story (exact like screenshot) -->
+<section class="journal-feature">
+  <div class="journal-feature__inner">
+
+    <div class="journal-feature__image-wrap">
+      <img
+        class="journal-feature__image"
+        src="../static/images/journal-feature.jpg"
+        alt="Featured story image"
+      >
+    </div>
+
+    <div class="journal-feature__meta">
+      FOOD &amp; CULTURE <span class="dot">•</span> OCT 12, 2023
+    </div>
+
+    
+
+  </div>
+
+<!-- Journal Grid Section -->
+<section class="journal-grid">
+  <div class="journal-grid__inner">
+
+    <!-- Top Heading -->
+    <div class="journal-grid__top">
+      <h2 class="journal-grid__headline">The Art of Slow Food</h2>
+
+      <p class="journal-grid__sub">
+        Why taking time — in the kitchen and at the table — makes all the<br>
+        difference in how we connect, taste, and live.
+      </p>
+
+      <a class="journal-grid__cta" href="index.html#">
+        Read Story <span class="arrow">→</span>
+      </a>
+    </div>
+
+    <!-- Grid Cards -->
+    <div class="journal-grid__cards">
+
+      <!-- Card 1 -->
+      <article class="jcard">
+        <a class="jcard__img" href="index.html#">
+          <img src="../static/images/journal-1.jpg" alt="Coffee">
+        </a>
+
+        <div class="jcard__meta">COFFEE &amp; CULTURE</div>
+
+        <h3 class="jcard__title">
+          <a href="index.html#">Coffee Rituals We Believe In</a>
+        </h3>
+
+        <p class="jcard__desc">
+          From the first grind to the final pour, exploring the sensory journey of our morning cup.
+        </p>
+
+        <a class="jcard__readmore" href="index.html#">READ MORE</a>
+      </article>
+
+
+      <!-- Card 2 -->
+      <article class="jcard">
+        <a class="jcard__img" href="index.html#">
+          <img src="../static/images/journal-2.jpg" alt="Space">
+        </a>
+
+        <div class="jcard__meta">OUR SPACE</div>
+
+        <h3 class="jcard__title">
+          <a href="index.html#">Designing Spaces for Comfort</a>
+        </h3>
+
+        <p class="jcard__desc">
+          How natural light, texture, and silence shaped the architecture of Breads &amp; Banter.
+        </p>
+
+        <a class="jcard__readmore" href="index.html#">READ MORE</a>
+      </article>
+
+
+      <!-- Card 3 -->
+      <article class="jcard">
+        <a class="jcard__img" href="index.html#">
+          <img src="../static/images/journal-3.jpg" alt="Dish">
+        </a>
+
+        <div class="jcard__meta">STORIES &amp; PEOPLE</div>
+
+        <h3 class="jcard__title">
+          <a href="index.html#">Behind Our Signature Dishes</a>
+        </h3>
+
+        <p class="jcard__desc">
+          Head Chef Marco reveals the childhood memories that inspired the Autumn harvest menu.
+        </p>
+
+        <a class="jcard__readmore" href="index.html#">READ MORE</a>
+      </article>
+
+
+      <!-- Card 4 (Second Row Example) -->
+      <article class="jcard">
+        <a class="jcard__img" href="index.html#">
+          <img src="../static/images/journal-4.jpg" alt="Seasons">
+        </a>
+
+        <div class="jcard__meta">FOOD &amp; CRAFT</div>
+
+        <h3 class="jcard__title">
+          <a href="index.html#">Sourcing the Seasons</a>
+        </h3>
+
+        <p class="jcard__desc">
+          A morning trip to the local farmers market to select the finest produce for the week.
+        </p>
+
+        <a class="jcard__readmore" href="index.html#">READ MORE</a>
+      </article>
+
+
+      <!-- Card 5 -->
+      <article class="jcard">
+        <a class="jcard__img" href="index.html#">
+          <img src="../static/images/journal-5.jpg" alt="Cozy">
+        </a>
+
+        <div class="jcard__meta">OUR SPACE</div>
+
+        <h3 class="jcard__title">
+          <a href="index.html#">Creating a Cozy Experience</a>
+        </h3>
+
+        <p class="jcard__desc">
+          The subtle art of hospitality and how we ensure every guest feels at home.
+        </p>
+
+        <a class="jcard__readmore" href="index.html#">READ MORE</a>
+      </article>
+
+
+      <!-- Card 6 -->
+      <article class="jcard">
+        <a class="jcard__img" href="index.html#">
+          <img src="../static/images/journal-6.jpg" alt="Croissant">
+        </a>
+
+        <div class="jcard__meta">FOOD &amp; CRAFT</div>
+
+        <h3 class="jcard__title">
+          <a href="index.html#">The Perfect Croissant</a>
+        </h3>
+
+        <p class="jcard__desc">
+          Layers of butter, patience, and technique. Dissecting the anatomy of our favorite pastry.
+        </p>
+
+        <a class="jcard__readmore" href="index.html#">READ MORE</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+</section>
+
+<section class="stay">
+  <div class="stay__inner">
+    <h2 class="stay__title">Stay Connected.</h2>
+
+    <p class="stay__sub">
+      Follow Us For Daily Moments, Seasonal Specials, And Café Stories.
+    </p>
+
+    <div class="stay__links">
+
+  <!-- Instagram -->
+  <a class="stay__link" href="https://www.instagram.com/" target="_blank">
+
+      <img src="../static/images/icon-instagram.svg" 
+           alt="Instagram"
+           class="stay__icon">
+
+      <span>Instagram</span>
+
+  </a>
+
+
+  <!-- Google -->
+  <a class="stay__link" href="https://www.google.com/search?q=Breads+%26+Banter+Brookefield" target="_blank">
+
+      <img src="../static/images/icon-google.svg" 
+           alt="Google Profile"
+           class="stay__icon">
+
+      <span>Google Profile</span>
+
+  </a>
+
+</div>
+  </div>
+</section>
+
+<!-- Then your footer -->
+
+
+<footer class="site-footer">
+  <div class="site-footer__line"></div>
+
+  <div class="site-footer__container">
+
+    <!-- LEFT -->
+    <div class="site-footer__brand">
+      <div class="site-footer__logo">
+        <img src="../static/images/footer-logo.png" alt="Breads & Banter">
+      </div>
+
+      <p class="site-footer__desc">
+        Rooted in craft, built on warmth. Dedicated<br>
+        to the art of slowing down in a fast-paced<br>
+        world.
+      </p>
+    </div>
+
+    <!-- EXPLORE -->
+    <div class="site-footer__col">
+      <p class="site-footer__title">EXPLORE</p>
+      <ul class="site-footer__links">
+        <li><a href="index.html#">Menu</a></li>
+        <li><a href="index.html#">Our Story</a></li>
+        <li><a href="index.html#">Locations</a></li>
+        <li><a href="index.html#">Careers</a></li>
+      </ul>
+    </div>
+
+    <!-- VISIT -->
+    <div class="site-footer__col">
+      <p class="site-footer__title">VISIT</p>
+      <div class="site-footer__text">
+        <p>543 Aecs Layout Main Road, AECS Layout Brookefield,<br>
+          Marathahalli, Bengaluru, Karnataka 560037</p>
+        <p class="site-footer__spaced">088848 00123</p>
+        <p>breadsnbanter@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- FOLLOW -->
+    <div class="site-footer__col">
+      <p class="site-footer__title">FOLLOW</p>
+
+      <div class="site-footer__social">
+        <a href="index.html#" aria-label="Instagram" class="site-footer__icon">
+          <img src="../static/images/icon-instagram.png" alt="">
+        </a>
+        <a href="index.html#" aria-label="Facebook" class="site-footer__icon">
+          <img src="../static/images/icon-facebook.png" alt="">
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ✅ Bottom line like your reference -->
+  <div class="site-footer__bottom">
+    <div class="site-footer__bottom-inner">
+      <p class="site-footer__copy">© Shet Mushet Hospitality Private limited. All rights reserved.</p>
+
+      <div class="site-footer__legal">
+        <a href="http://127.0.0.1:8000/privacy-policy/">Privacy Policy</a>
+        <a href="index.html#">Terms Of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+  // Tabs active underline + optional filtering (nice UX)
+  document.addEventListener("DOMContentLoaded", () => {
+    const tabs = document.querySelectorAll(".journal-tab");
+    const cards = document.querySelectorAll(".post-card");
+
+    tabs.forEach(tab => {
+      tab.addEventListener("click", () => {
+        tabs.forEach(t => t.classList.remove("is-active"));
+        tab.classList.add("is-active");
+
+        const filter = tab.dataset.filter;
+        if (!cards.length) return;
+
+        cards.forEach(card => {
+          const cat = card.dataset.cat;
+          const show = (filter === "all") || (cat === filter);
+          card.style.display = show ? "block" : "none";
+        });
+      });
+    });
+  });
+</script>
+
+
+
+
+    <div id="pageTransition" class="page-transition"></div>
+
+  <!-- ✅ Main JS -->
+  <script src="../static/js/main.js"></script>
+
+  <div id="pageCurtain"></div>
+
+  <!-- ✅ Page Transition JS -->
+  <script src="http://127.0.0.1:8000/static/js/page-transition.js"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const slider = document.getElementById("reviewsSlider");
+    if (!slider) return;
+
+    const reviews = Array.from(slider.querySelectorAll(".review"));
+    if (reviews.length <= 1) return;
+
+    let current = 0;
+
+    reviews.forEach((review, index) => {
+      review.classList.toggle("is-active", index === 0);
+    });
+
+    function showNextReview() {
+      reviews[current].classList.remove("is-active");
+      current = (current + 1) % reviews.length;
+      reviews[current].classList.add("is-active");
+    }
+
+    setInterval(showNextReview, 5200);
+  });
+  </script>
+
+
+  
+<div id="menuPopup" class="menu-popup">
+  <div class="menu-popup-content">
+    <h3>Select Menu</h3>
+    <p class="menu-popup-subtitle">
+      Choose which menu you’d like to explore.
+    </p>
+
+    <a href="../static/menus/breakfast-menu.pdf" target="_blank" class="menu-option">
+      <span>Breakfast Menu</span>
+      <span>→</span>
+    </a>
+
+    <a href="../static/menus/lunch-dinner-menu.pdf" target="_blank" class="menu-option">
+      <span>Lunch & Dinner Menu</span>
+      <span>→</span>
+    </a>
+
+    <button type="button" onclick="closeMenuPopup()" class="menu-close">Close</button>
+  </div>
+</div>
+
+<div id="bookingPopup" class="booking-popup-overlay">
+  <div class="booking-popup-card">
+
+    <button type="button" class="booking-popup-close" onclick="closeBookingPopup()">
+      &times;
+    </button>
+
+    <div class="booking-popup-top">
+      <p class="booking-popup-label">Reserve Your Table</p>
+      <h3 class="booking-popup-title">Choose Your Platform</h3>
+      <p class="booking-popup-subtitle">
+        Select where you’d like to continue your booking for Breads & Banter.
+      </p>
+    </div>
+
+    <div class="booking-popup-options">
+      <a href="https://www.swiggy.com/city/bangalore/breads-and-banter-brookefield-rest1018090" target="_blank" class="booking-platform booking-platform--swiggy">
+        <span class="booking-platform__name">Swiggy</span>
+        <span class="booking-platform__arrow">→</span>
+      </a>
+
+      <a href="https://www.zomato.com/bangalore/breads-and-banter-aecs-layout-bangalore" target="_blank" class="booking-platform booking-platform--zomato">
+        <span class="booking-platform__name">Zomato</span>
+        <span class="booking-platform__arrow">→</span>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<script>
+function openMenuPopup(){
+  document.getElementById("menuPopup").style.display="flex";
+}
+
+function closeMenuPopup(){
+  document.getElementById("menuPopup").style.display="none";
+}
+
+window.onclick = function(event) {
+  const popup = document.getElementById("menuPopup");
+
+  if (event.target === popup) {
+    popup.style.display = "none";
+  }
+}
+</script>
+
+<script>
+function openBookingPopup(){
+  document.getElementById("bookingPopup").style.display = "flex";
+}
+
+function closeBookingPopup(){
+  document.getElementById("bookingPopup").style.display = "none";
+}
+</script>
+
+<script>
+window.addEventListener("click", function(e){
+  const popup = document.getElementById("bookingPopup");
+  if(e.target === popup){
+    closeBookingPopup();
+  }
+});
+</script>
+
+
+
+</body>
+</html>
