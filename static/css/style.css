@@ -491,12 +491,12 @@ backdrop-filter: blur(2px);   /* optional: premium glass feel */
 /* watermark — move it up and keep it smaller */
 .quote-section__watermark{
       position: absolute;
-    left: -340px;
+    left: -150px;
     top: 50%;
     transform: translateY(-50%);
     width: 440px;
     height: 339px;
-    opacity: 257.055;
+    opacity: 0.05;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left center;
