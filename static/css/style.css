@@ -496,7 +496,8 @@ backdrop-filter: blur(2px);   /* optional: premium glass feel */
     transform: translateY(-50%);
     width: 440px;
     height: 339px;
-    opacity: 0.08;
+    opacity: 1;
+    z-index: 0;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left center;
